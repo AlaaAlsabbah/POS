@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/POS-UI/', // Change this to your repo name
+  base: '/POS/', // Your GitHub repo name
 })
 
