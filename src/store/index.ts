@@ -252,7 +252,7 @@ export const usePOSStore = create<POSState>()(
       
       // Resume a parked sale
       resumeSale: (saleId) => {
-        const { parkedSales, currentSale, sales } = get();
+        const { parkedSales, currentSale } = get();
         const saleToResume = parkedSales.find(s => s.id === saleId);
         
         if (!saleToResume) return;
