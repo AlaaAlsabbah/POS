@@ -11,7 +11,6 @@ import { usePOSStore } from '../../store';
 import { formatCurrency } from '../../utils/format';
 import { PaymentDetail } from '../../types';
 import { clsx } from 'clsx';
-import { Kbd } from '../ui/Kbd';
 
 interface PaymentModalProps {
   isOpen: boolean;
