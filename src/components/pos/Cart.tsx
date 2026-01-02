@@ -5,7 +5,6 @@ import { CartItem } from './CartItem';
 import { EmptyState } from '../ui/EmptyState';
 import { Kbd } from '../ui/Kbd';
 import { useState } from 'react';
-import { clsx } from 'clsx';
 
 interface CartProps {
   onCheckout: () => void;
